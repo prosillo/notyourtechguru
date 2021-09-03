@@ -1,3 +1,23 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http:/notyourtech.guru/"
+languageCode = "pt-br"
+title = "Not your Tech Guru"
+# Theme
+theme = "chunky-poster"
+# Params
+enabledEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+[params]
+title = "Not your Tech Guru - Just another tech blog"
+date = "2021-09-03"
+description = "Not your Tech Guru is just another personal blog about geek things and technology"
+email = "raphael.prosillo@gmail.com"
+
+[menu]
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "http:/notyourtech.guru/"
+weight = 200
+external = false
