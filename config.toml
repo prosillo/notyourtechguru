@@ -1,14 +1,17 @@
 baseURL = "http:/notyourtech.guru/"
 languageCode = "pt-br"
+relativeURLs = true
+canonifyURLs = true
 title = "Not your Tech Guru"
 # Theme
-theme = "chunky-poster"
+theme = "uBlogger"
 # Params
 enabledEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
 [params]
+version = "2.0.X"
 title = "Not your Tech Guru - Just another tech blog"
 date = "2021-09-03"
 description = "Not your Tech Guru is just another personal blog about geek things and technology"
