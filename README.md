@@ -1,1 +1,0 @@
-# notyourtechguru.github.io
