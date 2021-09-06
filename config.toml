@@ -1,5 +1,5 @@
 baseURL = "http://notyourtech.guru/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt-Br"
 theme = "uBlogger"
 
 title = "Not your Tech Guru - Another Technology Blog"
@@ -9,15 +9,15 @@ enableGitInfo = true
 enableEmoji = true
 
 [languages]
-  [languages.en]
+  [languages.pt]
     weight = 1
-    languageCode = "en"
-    languageName = "English"
+    languageCode = "pt-Br"
+    languageName = "Brazilian Portuguese"
     hasCJKLanguage = false
     paginate = 12
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
+    [languages.pt.menu]
+      [[languages.pt.menu.main]]
         identifier = "posts"
         pre = ""
         post = ""
@@ -25,7 +25,7 @@ enableEmoji = true
         url = "/posts/"
         title = ""
         weight = 1
-      [[languages.en.menu.main]]
+      [[languages.pt.menu.main]]
         identifier = "tags"
         pre = ""
         post = ""
@@ -33,46 +33,46 @@ enableEmoji = true
         url = "/tags/"
         title = ""
         weight = 2
-      [[languages.en.menu.main]]
-        identifier = "categories"
+      [[languages.pt.menu.main]]
+        identifier = "categorias"
         pre = ""
         post = ""
-        name = "Categories"
-        url = "/categories/"
+        name = "Categorias"
+        url = "/categorias/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
+      [[languages.pt.menu.main]]
+        identifier = "documentacao"
         pre = ""
         post = ""
         name = "Docs"
-        url = "/categories/documentation/"
+        url = "/categorias/documentacao/"
         title = ""
         weight = 4
-      [[languages.en.menu.main]]
-        identifier = "about"
+      [[languages.pt.menu.main]]
+        identifier = "sobre"
         pre = ""
         post = ""
-        name = "About"
-        url = "/about/"
+        name = "Sobre"
+        url = "/sobre/"
         title = ""
         weight = 5
-      [[languages.en.menu.main]]
+      [[languages.pt.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
-        name = ""
-        url = "https://github.com/upagge/ublogger"
+        name = "prosillo"
+        url = "https://github.com/prosillo/"
         title = "GitHub"
         weight = 6
-    [languages.en.params]
+    [languages.pt.params]
       description = "About uBlogger Theme"
       keywords = ["Theme", "Hugo"]
       [languages.en.params.app]
         title = "uBlogger"
         noFavicon = false
         svgFavicon = ""
-      [languages.en.params.search]
+      [languages.pt.params.search]
         enable = true
         type = "algolia"
         contentLength = 4000
@@ -81,13 +81,13 @@ enableEmoji = true
         snippetLength = 30
         highlightTag = "em"
         absoluteURL = false
-        [languages.en.params.search.algolia]
+        [languages.pt.params.search.algolia]
           index = "index.en"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.en.params.home]
+      [languages.pt.params.home]
         rss = 10
-        [languages.en.params.home.profile]
+        [languages.pt.params.home.profile]
           enable = true
           gravatarEmail = "raphael.prosillo@gmail.com"
           avatarURL = "/images/avatar.png"
@@ -95,12 +95,12 @@ enableEmoji = true
           subtitle = "- Another Technology Blog"
           social = true
           disclaimer = ""
-        [languages.en.params.home.posts]
+        [languages.pt.params.home.posts]
           enable = true
           paginate = 6
-      [languages.en.params.social]
-        GitHub = "xxxx"
-        Linkedin = ""
+      [languages.pt.params.social]
+        GitHub = "prosillo"
+        Linkedin = "raphael.prosillo"
         Twitter = "xxxx"
         Instagram = "xxxx"
         Facebook = "xxxx"
@@ -160,13 +160,13 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "xxxx@xxxx.com"
+        Email = "raphael.prosillo@gmail.com"
         DockerHub = ""
         Discord = "xxxxxxxxx"
         Leanpub = ""
         Udemy = ""
         RSS = true
-        [languages.en.params.social.Mastodon]
+        [languages.pt.params.social.Mastodon]
           id = "@xxxx"
           prefix = "https://mastodon.technology/"
 
