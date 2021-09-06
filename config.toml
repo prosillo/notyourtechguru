@@ -1,5 +1,5 @@
 baseURL = "http://notyourtech.guru/"
-defaultContentLanguage = "pt"
+defaultContentLanguage = "en"
 theme = "uBlogger"
 
 title = "Not your Tech Guru - Another Technology Blog"
@@ -9,9 +9,171 @@ enableGitInfo = true
 enableEmoji = true
 
 [languages]
-  [languages.pt]
+  [languages.en]
+    weight = 2
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    paginate = 12
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/upagge/ublogger"
+        title = "GitHub"
+        weight = 6
+    [languages.en.params]
+      description = "About uBlogger Theme"
+      keywords = ["Theme", "Hugo"]
+      [languages.en.params.app]
+        title = "Not your Tech Guru"
+        noFavicon = false
+        svgFavicon = ""
+      [languages.en.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = "raphael.prosillo@gmail.com"
+          avatarURL = "/images/avatar.png"
+          title = "Not your Tech Guru"
+          subtitle = "Another Technology Blog"
+          social = true
+          disclaimer = ""
+        [languages.en.params.home.posts]
+          enable = true
+          paginate = 6
+      [languages.en.params.social]
+        GitHub = "prosillo"
+        Linkedin = "raphael.prosillo"
+        Twitter = "xxxx"
+        Instagram = "xxxx"
+        Facebook = "xxxx"
+        Telegram = "xxxx"
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = "xxxx"
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "xxxx@xxxx.com"
+        DockerHub = ""
+        Discord = "xxxxxxxxx"
+        Leanpub = ""
+        Udemy = ""
+        RSS = true
+        [languages.en.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
+
+
+[languages.pt]
     weight = 1
-    languageCode = "pt_BR"
+    languageCode = "pt-BR"
     languageName = "Portugues"
     hasCJKLanguage = false
     paginate = 12
@@ -34,19 +196,19 @@ enableEmoji = true
         title = ""
         weight = 2
       [[languages.pt.menu.main]]
-        identifier = "categorias"
+        identifier = "categories"
         pre = ""
         post = ""
         name = "Categorias"
-        url = "/categorias/"
+        url = "/categories/"
         title = ""
         weight = 3
       [[languages.pt.menu.main]]
-        identifier = "documentacao"
+        identifier = "documentation"
         pre = ""
         post = ""
         name = "Docs"
-        url = "/categorias/documentacao/"
+        url = "/categories/documentation/"
         title = ""
         weight = 4
       [[languages.pt.menu.main]]
@@ -61,15 +223,15 @@ enableEmoji = true
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
-        name = "prosillo"
-        url = "https://github.com/prosillo/"
+        name = ""
+        url = "https://github.com/prosillo"
         title = "GitHub"
         weight = 6
     [languages.pt.params]
       description = "About uBlogger Theme"
       keywords = ["Theme", "Hugo"]
-      [languages.en.params.app]
-        title = "uBlogger"
+      [languages.pt.params.app]
+        title = "Not your Tech Guru"
         noFavicon = false
         svgFavicon = ""
       [languages.pt.params.search]
@@ -82,7 +244,7 @@ enableEmoji = true
         highlightTag = "em"
         absoluteURL = false
         [languages.pt.params.search.algolia]
-          index = "index.en"
+          index = "index.pt"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       [languages.pt.params.home]
@@ -92,7 +254,7 @@ enableEmoji = true
           gravatarEmail = "raphael.prosillo@gmail.com"
           avatarURL = "/images/avatar.png"
           title = "Not your Tech Guru"
-          subtitle = "- Another Technology Blog"
+          subtitle = "Another Technology Blog"
           social = true
           disclaimer = ""
         [languages.pt.params.home.posts]
@@ -160,7 +322,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "raphael.prosillo@gmail.com"
+        Email = "xxxx@xxxx.com"
         DockerHub = ""
         Discord = "xxxxxxxxx"
         Leanpub = ""
@@ -182,8 +344,8 @@ enableEmoji = true
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-      logo = ""
-      name = "Not your Tech Guru"
+      logo = "/images/logos/notyourtechguru_logo_1.png"
+      name = ""
       pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
       post = ""
 
