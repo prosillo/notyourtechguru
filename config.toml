@@ -89,7 +89,7 @@ enableEmoji = true
         rss = 10
         [languages.en.params.home.profile]
           enable = true
-          gravatarEmail = ""
+          gravatarEmail = "raphael.prosillo@gmail.com"
           avatarURL = "/images/avatar.png"
           title = "Not your Tech Guru"
           subtitle = "- Another Technology Blog"
