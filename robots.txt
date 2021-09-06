@@ -114,4 +114,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://notyourtech.guru/sitemap.xml
+Sitemap: http://notyourtech.guru/sitemap.xml
