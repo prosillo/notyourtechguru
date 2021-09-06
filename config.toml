@@ -1,5 +1,5 @@
 baseURL = "http://notyourtech.guru/"
-defaultContentLanguage = "pt-BR"
+defaultContentLanguage = "pt"
 theme = "uBlogger"
 
 title = "Not your Tech Guru - Another Technology Blog"
@@ -11,7 +11,7 @@ enableEmoji = true
 [languages]
   [languages.pt]
     weight = 1
-    languageCode = "pt-BR"
+    languageCode = "pt_BR"
     languageName = "Brazilian Portuguese"
     hasCJKLanguage = false
     paginate = 12
