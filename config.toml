@@ -1,5 +1,5 @@
 baseURL = "http://notyourtech.guru/"
-defaultContentLanguage = "pt-Br"
+defaultContentLanguage = "pt"
 theme = "uBlogger"
 
 title = "Not your Tech Guru - Another Technology Blog"
