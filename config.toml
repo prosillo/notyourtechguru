@@ -12,7 +12,7 @@ enableEmoji = true
   [languages.pt]
     weight = 1
     languageCode = "pt_BR"
-    languageName = "Brazilian Portuguese"
+    languageName = "Portugues"
     hasCJKLanguage = false
     paginate = 12
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
