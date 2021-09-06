@@ -183,7 +183,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = ""
-      name = "uBlogger"
+      name = "Not your Tech Guru"
       pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
       post = ""
 
