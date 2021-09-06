@@ -1,4 +1,4 @@
-baseURL = "https://notyourtech.guru/"
+baseURL = "http://notyourtech.guru/"
 defaultContentLanguage = "en"
 theme = "uBlogger"
 
