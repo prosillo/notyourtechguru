@@ -1,6 +1,8 @@
 # Theme Documentation - Extended Shortcodes
 
 
+# TRADUZIR!!!!!!!!!
+
 **uBlogger** theme provides multiple shortcodes on top of built-in ones in Hugo.
 
 <!--more-->
