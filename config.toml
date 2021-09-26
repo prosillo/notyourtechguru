@@ -337,7 +337,7 @@ enableEmoji = true
   gitRepo = "https://github.com/upagge/dolboblog-theme"
   fingerprint = ""
   dateFormat = "2006-01-02"
-  images = ["/images/logos/notyourtechguru_logo_2_transp.png"]
+  images = ["/images"]
 
   [params.header]
     desktopMode = "fixed"
@@ -345,7 +345,7 @@ enableEmoji = true
     [params.header.title]
       logo = "/images/logos/notyourtechguru_logo_2_transp.png"
       name = ""
-      pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
+      pre = ""
       post = ""
 
   [params.footer]
@@ -554,7 +554,7 @@ enableEmoji = true
     endLevel = 6
 
 [author]
-  name = "upagge.en"
+  name = "Raph"
 
 [sitemap]
   changefreq = "weekly"
