@@ -66,8 +66,8 @@ enableEmoji = true
         title = "GitHub"
         weight = 6
     [languages.pt.params]
-      description = "Sobre o Blog Not your Tech Guru"
-      keywords = ["Tecnologia", "Nuvem", "Automacao"]
+      description = "Not your Tech Guru"
+      keywords = ["Tecnologia", "Nuvem", "Automacao", "Linux", "Python", "Ansible"]
       [languages.pt.params.app]
         title = "Not your Tech Guru"
         noFavicon = false
@@ -100,7 +100,7 @@ enableEmoji = true
           paginate = 6
       [languages.pt.params.social]
         GitHub = "prosillo"
-        Linkedin = "raphael.prosillo"
+        Linkedin = "raphael_prosillo"
         Twitter = "xxxx"
         Instagram = "xxxx"
         Facebook = "xxxx"
