@@ -2,7 +2,7 @@ baseURL: "http://notyourtech.guru/"
 defaultContentLanguage: "pt"
 theme: "cupper-hugo-theme"
 title: "Not your Tech Guru"
-enableGitInfo: true
+enableGitInfo: false
 enableRobotsTXT: true
 enableEmoji: true
 
