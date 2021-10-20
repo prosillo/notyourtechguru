@@ -1,0 +1,28 @@
+- id: skip_to_content
+  translation: pular conteudo
+- id: nav_main_navigation
+  translation: Navegacao principal
+- id: nav_button_menu
+  translation: Menu
+- id: discuss_show_comments_button
+  translation: Mostrar comentarios
+- id: discuss_comments_disabled
+  translation: Comentarios do Disqus estao desabilitados
+- id: discuss_js_disabled
+  translation: Habilite o JavaScript para ver os Comentarios do Disqus.
+- id: dark_theme
+  translation: "theme escuro:"
+- id: table_of_contents
+  translation: Tabela de conteudo
+- id: publish_date
+  translation: "Data de publicacao:"
+- id: last_updated
+  translation: "Atualizado em:"
+- id: tags
+  translation: "Tags:"
+- id: aria_label_tags
+  translation: tags
+- id: search_placeholder
+  translation: Pesquise pelo titulo...
+- id: search_aria_label
+  translation: Pesquise pelo titulo
